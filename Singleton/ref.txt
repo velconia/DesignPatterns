@@ -1,0 +1,4 @@
+Singleton模式综述: http://blog.csdn.net/zhengzhb/article/details/7331369
+Java实现Singleton - 三种方式: http://bbs.csdn.net/topics/190092174 
+	(注意，SingletonHolder是为了达到模式的实现与Singleton类实现的逻辑上分离，达到代码健壮性目的才设计的)
+C++实现Singleton - 三种方式: http://www.jb51.net/article/34991.htm
