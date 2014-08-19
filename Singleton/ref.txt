@@ -1,4 +1,11 @@
 Singleton模式综述: http://blog.csdn.net/zhengzhb/article/details/7331369
-Java实现Singleton - 三种方式: http://bbs.csdn.net/topics/190092174 
+
+Singleton的三种方式：饿汉式， 懒汉式， 新模式(SingletonHolder)
 	(注意，SingletonHolder是为了达到模式的实现与Singleton类实现的逻辑上分离，达到代码健壮性目的才设计的)
-C++实现Singleton - 三种方式: http://www.jb51.net/article/34991.htm
+
+参考Java实现Singleton - 三种方式: 
+								http://nkliuliu.iteye.com/blog/980851
+
+参考C++实现Singleton - 需要考虑的一切问题: 线程安全，指针析构，模板，两种实现方式等等 
+								http://www.jb51.net/article/34991.htm
+								http://www.cnblogs.com/08shiyan/archive/2012/03/16/2399617.html
